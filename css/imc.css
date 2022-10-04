@@ -1,0 +1,28 @@
+main {
+    text-align: justify;
+    padding: 10px;
+    line-height: 30px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}
+
+main >p, main > h2, main > table {
+    width: 80%;
+    margin: auto;
+}

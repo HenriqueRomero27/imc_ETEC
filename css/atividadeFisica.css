@@ -1,0 +1,18 @@
+main {
+    text-align: justify;
+}
+
+main > p, main > h2, main > img {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#title {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}

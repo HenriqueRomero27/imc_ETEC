@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Interdisciplinar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/calculo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><h2>+Saúde</h2></a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="alimentação.html">Alimentação</a></li>
+                <li><a href="atividadeFisica.html">Atividade Física</a></li>
+                <li><a href="imc.html">IMC</a></li>
+                <li><a href="#">Cálculo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Veja aqui se você está com um peso saudável:</h2> 
+
+        <p>Se você tem entre 20 e 60 anos, veja no quadro abaixo o seu IMC (Índice de Massa Corporal). Para calcular, divida o seu peso, em quilogramas, pela sua altura, em metros, elevada ao quadrado.</p>
+        <h2>Cálculo</h2>
+        <h3>Cálculo do Índice de Massa Corporal</h3>
+        <p>Para a sua posição na tabela do Índice de Massa Corporal, você precisa de dois valores: seu peso e altura. É só dividir o peso (em quilos) pelo quadrado da altura (em metros), que é obtido pela multiplicação da altura por ela mesma.
+
+            Então, a fórmula fica assim: IMC = Peso / Altura².
+            
+            Se matemática não for o seu forte, você pode usar calculadoras de Índice de Massa Corporal disponíveis na internet.</p>
+            
+            <table>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+                <tr>
+                    <td>Menor 18,5</td> 
+                    <td>Abaixo do peso</td>
+                    <tr>
+                        <td>Entre 18,5 e 24,9</td>
+                        <td>Peso normal</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 25 e 29,9</td>
+                        <td>Acima do peso (sobrepeso)</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 30 e 34,9</td>
+                        <td>Obesidade I</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 35 e 39,9</td>
+                        <td>Obesidade II</td>
+                    </tr>
+                    <tr>
+                        <td>Maior do que 40</td>
+                        <td>Obesidade III</td>
+                    </tr>
+                </tr>
+            </table>
+            <h2>Vamos calcular o seu IMC?</h2>
+            <p>Nome: <input type="text" name="nome" id="nome" required placeholder="Nome"></p>
+            <p>Peso:&nbsp;&nbsp; <input type="number" name="peso" id="peso" required placeholder="Peso. Ex:40"></p>
+            <p>Altura: <input type="number" name="altura" id="altura" required placeholder="Altura em CM. Ex: 169"></p>
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+
+            <div id="res">
+
+            </div>
+            
+    </main>
+    
+    <footer>Desenvolvido por Luis Henrique e Maria Vitória</footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
